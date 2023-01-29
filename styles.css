@@ -108,6 +108,7 @@ display: flex;
 {
   background-size: contain;
   width: 100%;
+  
 }
 
 .background
@@ -116,10 +117,26 @@ display: flex;
  padding: 18%;
   background: url(https://demo.curlythemes.com/html/leisure/images/splash.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
+  display: flex;
 }
 
-.I
+.vertical-line{
+  border-left: 4px solid whitesmoke;
+  display: block;
+  height: 75px;
+  width: 3px;
+  padding-bottom: 10%;
+}
+
+.accomodation
 {
-  margin-bottom: 15%;
+ color: white;
+ text-decoration: none;
+ font-size: 15px;
+}
+
+.accom{
+  
+  border: 2px solid red;
+  margin-left: 2%;
 }
