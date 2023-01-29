@@ -1,3 +1,5 @@
+
+
 .header
 {
    background-color: rgb(57, 56, 56);
@@ -53,4 +55,71 @@ display: flex;
   margin-left: 67%;
 }
 
+.leisure-bar
+{
+  border: #40cd40 2px solid;
+  display: flex;
+  padding-top: 1%;
+}
 
+.logo-img, .home-img, .search
+{
+  width: 30px;
+  height: 30px; 
+  border-radius: 16px;
+}
+
+.logo-img
+{
+  margin-left: 3%;
+}
+.home-img
+{
+  margin-left: 38%;
+}
+.resort, .recreation, .events, .news, .features, .contact, .search
+{
+  margin-left: 20px;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 .2rem;
+  padding: 0 .2rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.leisure, .events, .news,.contact
+{
+  margin-top: 0.5%;
+}
+
+.leisure
+{
+  font-size: 25px;
+}
+
+.resort:hover, .recreation:hover, .events:hover, .news:hover, .features:hover, .contact:hover, .search:hover, .home-img:hover, .logo-img:hover
+{
+  cursor: pointer;
+  color: black;
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+}
+
+.bg
+{
+  background-size: contain;
+  width: 100%;
+}
+
+.background
+{
+  border: 2px solid black;
+ padding: 18%;
+  background: url(https://demo.curlythemes.com/html/leisure/images/splash.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.I
+{
+  margin-bottom: 15%;
+}
