@@ -111,51 +111,53 @@ display: flex;
   
 }
 
-.background
+.golf_image
 {
-  border: 2px solid black;
- padding: 18%;
-  background: url(https://demo.curlythemes.com/html/leisure/images/splash.jpg);
-  background-repeat: no-repeat;
+  position: absolute;
+  height: 80%;
+  width: 99%;
+}
+
+.tabs
+{
+  position: absolute;
   display: flex;
+  width: 96%;
+  margin-left: 25%;
+  background-color: skyblue;
+  
 }
 
-.vertical-line1{
-  border-left: 4px solid whitesmoke;
-  display: block;
-  height: 75px;
-  width: 3px;
- 
-}
-
-.accomodation, .progolf, .tennis, .swiming
+.accomodation, .progolf, .tennis, .swimming
 {
- 
- color: white;
- text-decoration: none;
- font-size: 15px;
- margin-right: 2%;
+  margin-right: 18%;
+  text-decoration: none;
+  color: white;
 }
 
-.accom{
-  padding-top: 15px;
- 
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.vertical-line2{
-  border-left: 4px solid whitesmoke;
-  display: block;
-  height: 75px;
-  width: 3px;
- }
-
- .accomodation:hover, .progolf:hover, .tennis:hover, .swiming:hover
+ .accomodation:hover, .progolf:hover, .tennis:hover, .swiming:hover,  .a_date:hover, .d_date:hover, .rooms:hover, .adults:hover, .book:hover
  {
    color: aqua;
  }
 
- .marryam
+ .golf_footer
  {
-   border: 2px solid red;
+   position: absolute;
+   margin-top: 35%;
+   margin-left: 1%;
+  padding-left: 5%;
+  opacity: 0.5;
+  width: 90%;
+ }
+
+ .a_date, .d_date, .rooms, .adults, .book
+ {
+  margin-right: 5%;
+   padding-right: 5%;
+ }
+
+ .tabs{
+   
+   position: absolute;
+   margin-left: 2%;
  }
