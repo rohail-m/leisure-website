@@ -137,7 +137,7 @@ display: flex;
 
  .accomodation:hover, .progolf:hover, .tennis:hover, .swiming:hover,  .a_date:hover, .d_date:hover, .rooms:hover, .adults:hover, .book:hover
  {
-   color: aqua;
+   color: black;
  }
 
  .golf_footer
@@ -160,4 +160,10 @@ display: flex;
    
    position: absolute;
    margin-left: 2%;
+   opacity: 0.5;
+ }
+
+ .second_page{
+   margin-top: 5%;
+   border: 2px solid red;
  }
